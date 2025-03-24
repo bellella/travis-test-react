@@ -34,7 +34,7 @@ jobs:
         with:
           args: --delete
         env:
-          AWS_S3_BUCKET: travis-test-react
+          AWS_S3_BUCKET: travis-react-test
           AWS_ACCESS_KEY_ID: minachoi
           AWS_SECRET_ACCESS_KEY: AKIAVVJ3VHPI43F4PXL6
           AWS_REGION: 'ap-northeast-2'   # 리전은 S3 생성 시 설정한 리전에 맞게 수정
